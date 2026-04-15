@@ -2,27 +2,27 @@ class Reel < Formula
   desc "Kubernetes container compliance — SBOMs, crypto inventories, vulnerability scans, malware detection"
   homepage "https://getreel.dev"
   license :cannot_represent
-  version "1.2.0"
+  version "1.3.0"
 
   on_macos do
     on_intel do
       url "https://github.com/getreeldev/releases/releases/download/v#{version}/reel_darwin_amd64.tar.gz"
-      sha256 "3e83d9668548b5c25bb41695b7fc7ebf51a78b33e7f0757fb62928ac6261b807"
+      sha256 "0b39f4789cead84a88125b05f5ed5064f2da272ff22aa054f5ad49f75dc17276"
     end
     on_arm do
       url "https://github.com/getreeldev/releases/releases/download/v#{version}/reel_darwin_arm64.tar.gz"
-      sha256 "61cee846badb04639645d3230460bea4571ef32a43c2f2965003cca2d435bf7e"
+      sha256 "ec18b3424272e81a2d7dcba31cf122b82e315df519aa7d9160c0ae7b1150c4d9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/getreeldev/releases/releases/download/v#{version}/reel_linux_amd64.tar.gz"
-      sha256 "7112494806c88499a49f9461d46052f88b1ec84a96456ec551e86b4dba297a17"
+      sha256 "ca0819053122c088d18a990c3eb0906e816f0688137e26cf1733145fbb50e350"
     end
     on_arm do
       url "https://github.com/getreeldev/releases/releases/download/v#{version}/reel_linux_arm64.tar.gz"
-      sha256 "521900a1c4cef21c5144f90d5f6bb57a399cd26f2a39f7aa7ec9910e3188bd4d"
+      sha256 "cdd36f8ece530417862a1b3187581932b40b33b062b2422dd3a9a2b8560465d2"
     end
   end
 
