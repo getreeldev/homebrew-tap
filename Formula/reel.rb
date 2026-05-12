@@ -7,22 +7,22 @@ class Reel < Formula
   on_macos do
     on_intel do
       url "https://github.com/getreeldev/reel-cli/releases/download/v#{version}/reel_darwin_amd64.tar.gz"
-      sha256 "3e51d0168538c426129147db2bc0e6d003ba408ebaa17cc4d7816a542e92afa3"
+      sha256 "d30e4b76f5e811c3ca61dbe2a7a21fb893fb05713f3e9c53ff9cbf24958d11e0"
     end
     on_arm do
       url "https://github.com/getreeldev/reel-cli/releases/download/v#{version}/reel_darwin_arm64.tar.gz"
-      sha256 "b475d0c631dd643b41464214c15f5dff604ace8011a8d4db27e311812a6142be"
+      sha256 "b1d27c011ba51275e9ddcb28458bec38f38443e96d7fd7e4fbfc1356972106c6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/getreeldev/reel-cli/releases/download/v#{version}/reel_linux_amd64.tar.gz"
-      sha256 "b93f71b64bb66c9c473b45820acfd9557a4e19a9d91e8ad159e8cbbe6f007ff7"
+      sha256 "e54fc6a9cbd5e4b043122e1a2f472524bd3ed0ca19f4a142008dab0cc1868847"
     end
     on_arm do
       url "https://github.com/getreeldev/reel-cli/releases/download/v#{version}/reel_linux_arm64.tar.gz"
-      sha256 "cc5c30c6c687b291773e17c0b383cf31cea5734e864bb76812813a97b6f44bbc"
+      sha256 "c284d8afd8a1d974f3205266fe64a2016e65d9325d38645faa6e7773551f253a"
     end
   end
 
